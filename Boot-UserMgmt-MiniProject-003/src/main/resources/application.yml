@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: Boot-UserMgmt-miniproject-03
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///jrtpdatabase1
+    username: root
+    password: Kanakaraju@123
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+server:
+   port: 4043 
+mailbody:
+  registration:
+      location: src/main/java/com/nt/service/user_registration_body.txt  
+        
+  recoverypwd:
+      location: src/main/java/com/nt/service/user_recoverypwd_body.txt
+  
+             
+user:
+   module:
+      user-reg-success: User Registered with id value
+      user-reg-failure: user registration failed
+      user-active-success: User activated successfully 
+      user-active-failure: User not found to activate
+      user-login-success: user login successfully
+      user-login-failure: user credintials  invalild
+      user-active-status: user not activated
+      user-update-success: user updated
+      user-update-failure: user not found to updated
+      
+      
+      
+   
+  
+    
