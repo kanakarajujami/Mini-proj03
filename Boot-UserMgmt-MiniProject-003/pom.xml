@@ -11,7 +11,7 @@
 	<groupId>nit</groupId>
 	<artifactId>Boot-UserMgmt-MiniProject-003</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>Boot-UserMgmt-MiniProject-003</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
@@ -80,6 +80,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>User-mgmt-rest-app</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
