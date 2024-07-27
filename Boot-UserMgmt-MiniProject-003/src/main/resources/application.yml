@@ -10,7 +10,7 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
-    database-platform: org.hibernate.dialect.MySQL8Dialect
+    database-platform: org.hibernate.dialect.MySQLDialect
 server:
    port: 4043 
 mailbody:
@@ -21,18 +21,7 @@ mailbody:
       location: src/main/java/com/nt/service/user_recoverypwd_body.txt
   
              
-user:
-   module:
-      user-reg-success: User Registered with id value
-      user-reg-failure: user registration failed
-      user-active-success: User activated successfully 
-      user-active-failure: User not found to activate
-      user-login-success: user login successfully
-      user-login-failure: user credintials  invalild
-      user-active-status: user not activated
-      user-update-success: user updated
-      user-update-failure: user not found to updated
-      
+
       
       
    
