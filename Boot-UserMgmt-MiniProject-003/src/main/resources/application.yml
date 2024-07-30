@@ -3,9 +3,9 @@ spring:
     name: Boot-UserMgmt-miniproject-03
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://mysqldb:3306/jrtpusermgmt
+    url: jdbc:mysql://3306:mysqldb/jrtpusermgmt
     username: root
-    password: root
+    password: Kanakaraju@123
   jpa:
     show-sql: true
     hibernate:
@@ -15,10 +15,10 @@ server:
    port: 4043 
 mailbody:
   registration:
-      location: src/main/java/com/nt/service/user_registration_body.txt  
+      location: /src/main/java/com/nt/service/user_registration_body.txt  
         
   recoverypwd:
-      location: src/main/java/com/nt/service/user_recoverypwd_body.txt
+      location: /src/main/java/com/nt/service/user_recoverypwd_body.txt
   
              
 
