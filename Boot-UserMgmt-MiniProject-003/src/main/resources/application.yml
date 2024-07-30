@@ -15,10 +15,10 @@ server:
    port: 4043 
 mailbody:
   registration:
-      location: /src/main/java/com/nt/service/user_registration_body.txt  
+      location: src/main/java/com/nt/service/user_registration_body.txt  
         
   recoverypwd:
-      location: /src/main/java/com/nt/service/user_recoverypwd_body.txt
+      location: src/main/java/com/nt/service/user_recoverypwd_body.txt
   
              
 
