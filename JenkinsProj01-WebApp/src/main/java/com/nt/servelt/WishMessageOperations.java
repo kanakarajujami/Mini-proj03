@@ -18,7 +18,7 @@ public class WishMessageOperations extends HttpServlet {
 		    //get pdf writer
 		    PrintWriter pw=resp.getWriter();
 		    //set response
-		    pw.write("<h1 style='color:red;text-align:center'>Good Morning</h1><br><br>");
+		    pw.write("<h1 style='color:red;text-align:center'>Hello,Good Morning</h1><br><br>");
 		    //set home page
 		    pw.write("<a href='index.jsp'>GoToHome</a>");
 		    //close print writer
