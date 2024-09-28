@@ -20,7 +20,7 @@ public class WishMessageOperations extends HttpServlet {
 		    //set response
 		    pw.write("<h1 style='color:red;text-align:center'>Hello,Good Morning</h1><br><br>");
 		    //set home page
-		    pw.write("<a href='index.jsp'>GoToHome</a>");
+		    pw.write("<a href='index.jsp'>GoHome</a>");
 		    //close print writer
 		    pw.close();
 	}
