@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class WishMessageController {
 	@GetMapping("/display")
    public ResponseEntity<String> showWishMessage(){
-	      return new ResponseEntity<String>("Good Morning To Evernone",HttpStatus.OK);
+	      return new ResponseEntity<String>("Good Morning To Guys",HttpStatus.OK);
    }
 }
