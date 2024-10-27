@@ -23,7 +23,7 @@ import com.nt.service.IUserMgmtService;
 
 
 @RestController
-@RequestMapping("usermgmt-api")
+@RequestMapping("/usermgmt-api")
 public class UserMgmtController {
 	@Autowired
 	private IUserMgmtService userService;
