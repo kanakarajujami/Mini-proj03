@@ -5,7 +5,7 @@ spring:
   application:
     name: Boot-UserMgmt-Project004
   datasource:
-    url: jdbc:mysql://54.152.223.179:3306/mydatabase
+    url: jdbc:mysql://54.152.223.179:3306/mydatabase?autoReconnect:true
     username: root
     password: Kanakaraju@123
     driver-class-name: com.mysql.cj.jdbc.Driver
