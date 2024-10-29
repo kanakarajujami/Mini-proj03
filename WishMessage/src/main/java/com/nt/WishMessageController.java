@@ -19,8 +19,8 @@ public class WishMessageController extends HttpServlet {
 		PrintWriter writer=response.getWriter();
 		//set content type
 		response.setContentType("html/text");
-		writer.print("<h2 style='color:red,text-align:center,margin-top:350px;'>Hello,Good Morning to EveryOne</h2>");
-		writer.print("<a a='wishurl'>GotoHome</a>");
+		writer.println("<h2 style='color:red,text-align:center,margin-top:350px;'>Hello,Good Morning to EveryOne</h2>");
+		writer.println("<a a='wishurl'>GotoHome</a>");
 		//close writer stream object;
 		writer.close();
 	}
