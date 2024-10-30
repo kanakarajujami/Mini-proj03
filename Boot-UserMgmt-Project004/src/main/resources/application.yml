@@ -5,13 +5,14 @@ spring:
   application:
     name: Boot-UserMgmt-Project004
   datasource:
-    url: jdbc:mysql://172.31.26.135:3306/mydatabase
+    url: jdbc:mysql://mysqldb:3306/jrtpdb
     username: root
     password: Kanakaraju@123
     driver-class-name: com.mysql.cj.jdbc.Driver
    
     
   jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
     hibernate:
       ddl-auto: update
     show-sql: true
