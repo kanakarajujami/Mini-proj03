@@ -1,0 +1,11 @@
+com\nt\util\SendMailToUser.class
+com\nt\bindings\UserAccount.class
+com\nt\bindings\RecoveryPassword.class
+com\nt\bindings\ActivateUser.class
+com\nt\repository\IUserMgmtRepository.class
+com\nt\service\IUserMgmtService.class
+com\nt\service\IUserMgmtServiceImpl.class
+com\nt\entity\UserMaster.class
+com\nt\ms\UserMgmtController.class
+com\nt\bindings\LoginCredintials.class
+com\nt\BootUserMgmtProject004Application.class

@@ -1,0 +1,11 @@
+C:\Users\hp\git\Mini-proj03-local\Boot-UserMgmt-Project004\src\main\java\com\nt\bindings\ActivateUser.java
+C:\Users\hp\git\Mini-proj03-local\Boot-UserMgmt-Project004\src\main\java\com\nt\bindings\LoginCredintials.java
+C:\Users\hp\git\Mini-proj03-local\Boot-UserMgmt-Project004\src\main\java\com\nt\bindings\RecoveryPassword.java
+C:\Users\hp\git\Mini-proj03-local\Boot-UserMgmt-Project004\src\main\java\com\nt\bindings\UserAccount.java
+C:\Users\hp\git\Mini-proj03-local\Boot-UserMgmt-Project004\src\main\java\com\nt\BootUserMgmtProject004Application.java
+C:\Users\hp\git\Mini-proj03-local\Boot-UserMgmt-Project004\src\main\java\com\nt\entity\UserMaster.java
+C:\Users\hp\git\Mini-proj03-local\Boot-UserMgmt-Project004\src\main\java\com\nt\ms\UserMgmtController.java
+C:\Users\hp\git\Mini-proj03-local\Boot-UserMgmt-Project004\src\main\java\com\nt\repository\IUserMgmtRepository.java
+C:\Users\hp\git\Mini-proj03-local\Boot-UserMgmt-Project004\src\main\java\com\nt\service\IUserMgmtService.java
+C:\Users\hp\git\Mini-proj03-local\Boot-UserMgmt-Project004\src\main\java\com\nt\service\IUserMgmtServiceImpl.java
+C:\Users\hp\git\Mini-proj03-local\Boot-UserMgmt-Project004\src\main\java\com\nt\util\SendMailToUser.java
